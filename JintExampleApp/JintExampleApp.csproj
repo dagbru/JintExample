@@ -8,13 +8,10 @@
     </PropertyGroup>
 
     <ItemGroup>
+      <PackageReference Include="Jint" Version="4.0.3" />
       <PackageReference Include="Microsoft.Extensions.Hosting" Version="8.0.1" />
       <PackageReference Include="Serilog.Extensions.Logging" Version="8.0.0" />
       <PackageReference Include="Serilog.Sinks.Console" Version="6.0.0" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <Folder Include="Scripts\" />
     </ItemGroup>
 
 </Project>
